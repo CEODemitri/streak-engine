@@ -2,11 +2,11 @@
 
 Personal Analytic dashboard built w/ Python tracking habits and long-term progress.
 
-This project helps to answer questions like:
+This project gives insight to questions like:
 
 - May I improve mood and productivity with more sleep?
-- What habits create the longest streaks?
-- Which days are most productive?
+- What habits support/propel the longest streaks?
+- Which days are most/least productive?
 
 Instead of guessing, this repo uses real data and Python analysis to find patterns.
 
@@ -32,7 +32,7 @@ Examples include:
 - Coding hours
 - Workout completion
 - Reading pages
-- Sleep hours
+- Sleep hours 💤 ⏳
 - Mood score
 - Spending
 - Deep work sessions
@@ -44,7 +44,7 @@ You can customize this for your own system.
 
 ## Tech Stack
 
-- Python
+- Python 🐍 💚
 - Pandas
 - NumPy
 - Matplotlib
@@ -82,7 +82,6 @@ life-analytics/
 - What is my longest coding streak?
 - Which weekday gives me the highest output?
 - Is there a relationship between sleep and productivity?
-- How often do workouts improve focus?
 - What habits break my momentum?
 
 ---
