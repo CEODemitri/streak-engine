@@ -56,26 +56,24 @@ You can customize this for your own system.
 
 ## Project Structure
 
-```text
 life-analytics/
 │
 ├── data/
-│   └── habits.csv
+│ └── habits.csv
 │
 ├── analysis/
-│   ├── streaks.py
-│   ├── trends.py
-│   ├── correlations.py
+│ ├── streaks.py
+│ ├── trends.py
+│ ├── correlations.py
 │
 ├── automation/
-│   └── add_today.py
+│ └── add_today.py
 │
 ├── dashboard/
-│   └── streamlit_app.py
+│ └── streamlit_app.py
 │
 ├── requirements.txt
 └── README.md
-```
 
 ---
 
@@ -112,7 +110,7 @@ life-analytics/
 
 ## Why This Exists
 
-Consistency beats motivation.
+Consistency beats wishful hoping.
 
 This project turns daily actions into measurable feedback so progress becomes visible and improvable.
 
