@@ -38,8 +38,6 @@ Examples include:
 - Deep work sessions
 - Weekly consistency
 
-You can customize this for your own system.
-
 ---
 
 ## Tech Stack
@@ -109,8 +107,6 @@ life-analytics/
 
 ## Why This Exists
 
-Consistency beats wishful hoping.
-
 This project turns daily actions into measurable feedback so progress becomes visible and improvable.
 
-Built for discipline, not motivation.
+Built for discipline, a few steps above motivation.
