@@ -11,7 +11,7 @@ def get_today_input():
     print(f"Today's date: {today}")
     
     # Check if today's date already exists in the CSV
-    with open('habits.csv', mode='r') as file:
+    with open('streak-engine/data/habits.csv', mode='r') as file:
         reader = csv.reader(file)
         for row in reader:
             if row[0] == today:
@@ -35,8 +35,12 @@ def get_today_input():
             return
     
     # Append today's data to the CSV
-    with open('habits.csv', mode='a', newline='') as file:
+    with open('streak-engine/data/habits.csv', mode='a', newline='') as file:
         writer = csv.writer(file)
         writer.writerow([today] + habit_inputs)
     
     print("Today's habits have been recorded successfully.")
+
+if __name__ == "__main__":
+    get_today_input()
+
